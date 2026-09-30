@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -15,12 +16,45 @@
         android:layout_marginBottom="32dp" />
 
     <TextView
-        android:id="@+id/txtResultado"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Resultado aparecerá aqui"
-        android:textSize="20sp"
-        android:gravity="center"
+        android:text="P1"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edtP1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite a nota da P1"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="P2"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edtP2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite a nota da P2"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Atividade"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edtAtividade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite a nota da atividade"
+        android:inputType="numberDecimal"
         android:layout_marginBottom="24dp" />
 
     <Button
@@ -28,6 +62,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Calcular média" />
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Média aparecerá aqui"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="24dp" />
 
 </LinearLayout>
 
